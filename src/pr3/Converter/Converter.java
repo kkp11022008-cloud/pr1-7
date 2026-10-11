@@ -26,7 +26,7 @@ public class Converter {
         double dollars = converter.rublesToDollars(rubles);
         double euros = converter.rublesToEuros(rubles);
 
-        System.out.println("\nРезультат конвертации:");
+        System.out.println("Результат конвертации:");
 
         System.out.printf("%.2f RUB = %.2f USD%n", rubles, dollars
         );

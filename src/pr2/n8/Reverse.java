@@ -18,7 +18,7 @@ public class Reverse {
             left++;
             right--;
         }
-        System.out.println("\nПосле разворота:");
+        System.out.println("После разворота:");
         for (int i = 0; i < words.length; i++) {
             System.out.print(words[i] + " ");
         }
